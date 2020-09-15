@@ -19,13 +19,13 @@
               <div class="col-2 p-0 mt-1"><h5>Cm</h5></div>
           </div>
         </div>
-        <a class="btn btn-danger" href="{{'/bola'}}" role="button">Reset Number</a>
+        {{-- <a class="btn btn-danger" href="{{'/bola'}}" role="button">Reset Number</a> --}}
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
       <div class="mt-4 col-10">
         @if(session('info'))
         <div class="alert alert-info">
-        {{session('info')}}
+        {{session('info')}}<sup>3</sup>
         </div>
         @endif
     </div>

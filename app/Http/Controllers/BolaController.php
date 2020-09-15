@@ -14,6 +14,6 @@ class BolaController extends Controller
         $jari_jari = $request->input('jariBola');
         $volumeBola = 4/3 * 22/7 * $jari_jari * $jari_jari * $jari_jari;
 
-        return redirect('/bola')->with('info','hasilnya adalah: ' . $volumeBola . ' Cm3');
+        return redirect('/bola')->with('info','hasilnya adalah: ' . $volumeBola . ' Cm');
     }
 }
